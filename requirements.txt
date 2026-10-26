@@ -1,0 +1,10 @@
+# Python 3.10 to 3.13 use the compatible stable package set.
+pydicom==3.0.2
+numpy==2.2.6; python_version < "3.14"
+pandas==2.3.3; python_version < "3.14"
+matplotlib==3.10.8; python_version < "3.14"
+
+# Python 3.14 and newer use packages with matching wheels.
+numpy==2.5.4; python_version >= "3.14"
+pandas==3.1.0; python_version >= "3.14"
+matplotlib==3.11.2; python_version >= "3.14"
