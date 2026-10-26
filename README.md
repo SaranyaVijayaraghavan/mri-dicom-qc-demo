@@ -1,6 +1,6 @@
 # MRI DICOM QC Demo
 
-A small beginner-level example for an imaging specialist portfolio. The script reads the public `MR_small.dcm` test image provided by pydicom, checks selected metadata against an example protocol, calculates basic raw-pixel statistics, and saves a CSV report and PNG figure.
+The script reads the public `MR_small.dcm` test image provided by pydicom, checks selected metadata against an example protocol, calculates basic raw-pixel statistics, and saves a CSV report and PNG figure.
 
 ## How to run it
 
